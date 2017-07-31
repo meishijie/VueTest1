@@ -7,10 +7,10 @@ import Main from '@/components/Main'
 
 Vue.config.productionTip = false
 Vue.component('my-component', Main)
-/* eslint-disable no-new */
+    /* eslint-disable no-new */
 new Vue({
-  el: '#app',
-  router,
-  template: '<App/>',
-  components: {App}
+    el: '#app',
+    router,
+    template: '<App/>',
+    components: { App }
 })
